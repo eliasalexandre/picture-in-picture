@@ -1,0 +1,16 @@
+body,
+#root-container {
+  -webkit-app-region: drag;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+video {
+  height: 100vh;
+  pointer-events: none;
+  background: #121214;
+}
